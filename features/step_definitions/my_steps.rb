@@ -13,6 +13,3 @@ end
 Then(/^debe ver lista "(.*?)"$/) do |texto|
   last_response.body.should =~ /#{texto}/m
 end
-
-
-
